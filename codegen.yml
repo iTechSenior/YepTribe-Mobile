@@ -1,0 +1,20 @@
+overwrite: true
+schema: http://localhost:5000/graphql
+documents: 'src/graphql/**/*.graphql'
+generates:
+  src/graphql/index.tsx:
+    plugins:
+      - add: /* eslint-disable import/first */
+      - add: // tslint:disable
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo
+    config:
+      withHooks: true
+      withMutationFn: true
+      withHOC: false
+      withComponent: false
+      hooksImportFrom: '@apollo/react-hooks'
+  src/graphql/fragments.tsx:
+    plugins:
+      - fragment-matcher

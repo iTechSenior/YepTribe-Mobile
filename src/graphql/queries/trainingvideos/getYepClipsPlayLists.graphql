@@ -1,0 +1,11 @@
+query getYepClipsPlaylists($skip: Int!, $pageSize: Int!, $searchText: String!) {
+  getYepClipsPlaylists(skip: $skip, pageSize: $pageSize, searchText: $searchText) {
+    category
+    playlists {
+      id
+      thumbnailUrl
+      trainer
+      title
+    }
+  }
+}

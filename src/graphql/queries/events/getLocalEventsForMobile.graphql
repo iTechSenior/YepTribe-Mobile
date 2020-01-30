@@ -1,0 +1,32 @@
+query localEventsForMobile($month: Int, $year: Int, $searchText: String) {
+  getLocalEventsForMobile(month: $month, year: $year, searchText: $searchText) {
+    totalRows
+    groupedEvents {
+      day
+      events {
+        id
+        eventId
+        type
+        timeZone
+        description
+        when
+        where
+        recurringDaysOfWeek
+        address {
+          address
+          city
+          state
+          zip
+          country
+        }
+        who {
+          id
+          email
+          firstName
+          lastName
+        }
+        webinarUrl
+      }
+    }
+  }
+}

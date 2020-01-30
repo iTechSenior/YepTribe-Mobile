@@ -1,0 +1,16 @@
+query getYepClips($skip: Int!, $pageSize: Int!, $searchText: String, $brand: String) {
+  getYepClips(skip: $skip, pageSize: $pageSize, searchText: $searchText, brand: $brand) {
+    category
+    videos {
+      id
+      videoUrl
+      videoS3Url
+      videoThumbnailUrl
+      videoTitle
+      category
+      subCategory
+      description
+      trainer
+    }
+  }
+}

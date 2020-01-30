@@ -1,0 +1,9 @@
+query getCertificatesForMobile {
+  getCertificatesForMobile {
+    id
+    title
+    defaultMessage
+    membershipLevels
+    thumbnail
+  }
+}

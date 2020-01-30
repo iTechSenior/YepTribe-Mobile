@@ -1,0 +1,29 @@
+query getYepPlaylistByIdWithVideos($id: String!) {
+  getYepPlaylistByIdWithVideos(id: $id) {
+    playlist {
+      id
+      status
+      title
+      trainer
+      category
+      subCategory
+      thumbnailUrl
+      description
+    }
+    videos {
+      id
+      videoTitle
+      videoUrl
+      videoS3Url
+      videoThumbnailUrl
+      category
+      subCategory
+      language
+      description
+      trainer
+      brand
+      playlist
+      displayOrder
+    }
+  }
+}

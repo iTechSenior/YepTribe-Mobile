@@ -1,0 +1,7 @@
+query getBannersForMobile {
+  getBannersForMobile {
+    url
+    height
+    width
+  }
+}

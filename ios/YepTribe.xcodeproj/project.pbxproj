@@ -1,0 +1,1041 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* YepTribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* YepTribeTests.m */; };
+		0992FE5F144F64D8CD6B78CF /* libPods-YepTribe.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B1A5796FC57C360A069CE8DB /* libPods-YepTribe.a */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		173F63125EB74ADA9188015A /* Poppins-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 43EB2D0031B6466BA60F528F /* Poppins-Black.ttf */; };
+		1E3D5B15E3404EB0ADF4AEF3 /* Poppins-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 10F63EFB7FE84E2594AB29E4 /* Poppins-MediumItalic.ttf */; };
+		1E6D2A8EFE6F9145C2C7F505 /* libPods-YepTribe-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E2108D182DED051806B2295 /* libPods-YepTribe-tvOS.a */; };
+		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* YepTribeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* YepTribeTests.m */; };
+		32769B1B325549EEA5B30744 /* Poppins-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF9D373400448738E6794AE /* Poppins-RegularItalic.ttf */; };
+		4611E195BFE14EFB941DAFDC /* Poppins-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FAE39F2B27634E10A7F1B05F /* Poppins-SemiBoldItalic.ttf */; };
+		525F04F2A019401CB372011B /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7713E1AC31A647EABD505C53 /* Poppins-Thin.ttf */; };
+		84C47FC371764F99A28486DB /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6B469B8B81847CDB4270768 /* Poppins-Medium.ttf */; };
+		85DC36FFD29A425F99ED9F00 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 004DB36B9CAD40439F0C6BE5 /* Poppins-ExtraBold.ttf */; };
+		86B387E912DE44549F3FF2BB /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3768617B8CBC4B25BB7CAB5E /* Poppins-Light.ttf */; };
+		95C3221F04964AF9844E0F83 /* Poppins-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AE6FDCAB8C094DCD813C4E8D /* Poppins-BlackItalic.ttf */; };
+		97CCA80B51DF3DF007BE388B /* libPods-YepTribe-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BAB661A45D11298CA3006EB /* libPods-YepTribe-tvOSTests.a */; };
+		A3593854D0574F4FA4FC2690 /* Poppins-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82E4819A699F465D9B2039BC /* Poppins-ExtraLightItalic.ttf */; };
+		BDF9050F5326417194D2846C /* Poppins-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B798BB7B0B844E31A461D1C3 /* Poppins-ThinItalic.ttf */; };
+		C1E0CF8DE1A743C894E9138B /* Poppins-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFC6243AA9414573939C10CC /* Poppins-ExtraBoldItalic.ttf */; };
+		C8464D9610D84AD696A5371F /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A4E2792AA842CA8722DE47 /* Poppins-Regular.ttf */; };
+		D4884FFE61904D2AAD502A27 /* Poppins-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 970F48096CC640108976503F /* Poppins-ExtraLight.ttf */; };
+		E2098015710B4D5E9CB432DC /* Poppins-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FBB181AE82B9436680001B8E /* Poppins-BoldItalic.ttf */; };
+		F47AD51507C340DA9F24B30E /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9319EC1BD11F4EC586D37897 /* Poppins-SemiBold.ttf */; };
+		F497D9ECA79D4F79939C3070 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7492066F04AE4C488A7D05F8 /* Poppins-Bold.ttf */; };
+		F5949BEDBC3C2912631B2FF1 /* libPods-YepTribeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 312735F8D8222FE669C5A62E /* libPods-YepTribeTests.a */; };
+		F90563AAFC3F46C19538DA97 /* Poppins-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D6148DD88BD426283E0F7BB /* Poppins-LightItalic.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = YepTribe;
+		};
+		2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
+			remoteInfo = "YepTribe-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		004DB36B9CAD40439F0C6BE5 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBold.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* YepTribeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YepTribeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* YepTribeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YepTribeTests.m; sourceTree = "<group>"; };
+		10F63EFB7FE84E2594AB29E4 /* Poppins-MediumItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-MediumItalic.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-MediumItalic.ttf"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* YepTribe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YepTribe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = YepTribe/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = YepTribe/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = YepTribe/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = YepTribe/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = YepTribe/main.m; sourceTree = "<group>"; };
+		173FD31BB5FF36F0B713BDC1 /* Pods-YepTribeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepTribeTests.debug.xcconfig"; path = "Target Support Files/Pods-YepTribeTests/Pods-YepTribeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2D02E47B1E0B4A5D006451C7 /* YepTribe-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YepTribe-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* YepTribe-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YepTribe-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D6148DD88BD426283E0F7BB /* Poppins-LightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-LightItalic.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-LightItalic.ttf"; sourceTree = "<group>"; };
+		2E2108D182DED051806B2295 /* libPods-YepTribe-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YepTribe-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		312735F8D8222FE669C5A62E /* libPods-YepTribeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YepTribeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35B1741B3ECA6856475B0B64 /* Pods-YepTribe-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepTribe-tvOS.release.xcconfig"; path = "Target Support Files/Pods-YepTribe-tvOS/Pods-YepTribe-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		3768617B8CBC4B25BB7CAB5E /* Poppins-Light.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Light.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-Light.ttf"; sourceTree = "<group>"; };
+		43EB2D0031B6466BA60F528F /* Poppins-Black.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Black.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-Black.ttf"; sourceTree = "<group>"; };
+		4F6517BA233111C000CD1341 /* YepTribe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = YepTribe.entitlements; path = YepTribe/YepTribe.entitlements; sourceTree = "<group>"; };
+		5BE3AEFBA0E25815429EBF56 /* Pods-YepTribe-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepTribe-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-YepTribe-tvOS/Pods-YepTribe-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		7492066F04AE4C488A7D05F8 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Bold.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		7713E1AC31A647EABD505C53 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Thin.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		7BAB661A45D11298CA3006EB /* libPods-YepTribe-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YepTribe-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E4819A699F465D9B2039BC /* Poppins-ExtraLightItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLightItalic.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		8BF9D373400448738E6794AE /* Poppins-RegularItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-RegularItalic.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-RegularItalic.ttf"; sourceTree = "<group>"; };
+		90A4E2792AA842CA8722DE47 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Regular.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		9319EC1BD11F4EC586D37897 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBold.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		970F48096CC640108976503F /* Poppins-ExtraLight.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraLight.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-ExtraLight.ttf"; sourceTree = "<group>"; };
+		98EFF3EAD2F8E0F604B7362D /* Pods-YepTribe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepTribe.release.xcconfig"; path = "Target Support Files/Pods-YepTribe/Pods-YepTribe.release.xcconfig"; sourceTree = "<group>"; };
+		9EE665EBA6540D3FCD165BCA /* Pods-YepTribe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepTribe.debug.xcconfig"; path = "Target Support Files/Pods-YepTribe/Pods-YepTribe.debug.xcconfig"; sourceTree = "<group>"; };
+		A21F658B1F1A62CAE3FBA240 /* Pods-YepTribe-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepTribe-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-YepTribe-tvOSTests/Pods-YepTribe-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE6FDCAB8C094DCD813C4E8D /* Poppins-BlackItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BlackItalic.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-BlackItalic.ttf"; sourceTree = "<group>"; };
+		AF245FE7A28FC13A4E9268EE /* Pods-YepTribeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepTribeTests.release.xcconfig"; path = "Target Support Files/Pods-YepTribeTests/Pods-YepTribeTests.release.xcconfig"; sourceTree = "<group>"; };
+		B1A5796FC57C360A069CE8DB /* libPods-YepTribe.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YepTribe.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B798BB7B0B844E31A461D1C3 /* Poppins-ThinItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ThinItalic.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-ThinItalic.ttf"; sourceTree = "<group>"; };
+		CFC6243AA9414573939C10CC /* Poppins-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-ExtraBoldItalic.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		D6B469B8B81847CDB4270768 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-Medium.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F907CE2CB15F14F4DD5545A9 /* Pods-YepTribe-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YepTribe-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-YepTribe-tvOSTests/Pods-YepTribe-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FAE39F2B27634E10A7F1B05F /* Poppins-SemiBoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-SemiBoldItalic.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		FBB181AE82B9436680001B8E /* Poppins-BoldItalic.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Poppins-BoldItalic.ttf"; path = "../src/assets/Fonts/Poppins/Poppins-BoldItalic.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5949BEDBC3C2912631B2FF1 /* libPods-YepTribeTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0992FE5F144F64D8CD6B78CF /* libPods-YepTribe.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4781E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E6D2A8EFE6F9145C2C7F505 /* libPods-YepTribe-tvOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48D1E0B4A5D006451C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97CCA80B51DF3DF007BE388B /* libPods-YepTribe-tvOSTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* YepTribeTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* YepTribeTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = YepTribeTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* YepTribe */ = {
+			isa = PBXGroup;
+			children = (
+				4F6517BA233111C000CD1341 /* YepTribe.entitlements */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
+				13B07FB71A68108700A75B9A /* main.m */,
+			);
+			name = YepTribe;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				B1A5796FC57C360A069CE8DB /* libPods-YepTribe.a */,
+				2E2108D182DED051806B2295 /* libPods-YepTribe-tvOS.a */,
+				7BAB661A45D11298CA3006EB /* libPods-YepTribe-tvOSTests.a */,
+				312735F8D8222FE669C5A62E /* libPods-YepTribeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BFBF0B62AF742A1872954D2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				43EB2D0031B6466BA60F528F /* Poppins-Black.ttf */,
+				AE6FDCAB8C094DCD813C4E8D /* Poppins-BlackItalic.ttf */,
+				7492066F04AE4C488A7D05F8 /* Poppins-Bold.ttf */,
+				FBB181AE82B9436680001B8E /* Poppins-BoldItalic.ttf */,
+				004DB36B9CAD40439F0C6BE5 /* Poppins-ExtraBold.ttf */,
+				CFC6243AA9414573939C10CC /* Poppins-ExtraBoldItalic.ttf */,
+				970F48096CC640108976503F /* Poppins-ExtraLight.ttf */,
+				82E4819A699F465D9B2039BC /* Poppins-ExtraLightItalic.ttf */,
+				3768617B8CBC4B25BB7CAB5E /* Poppins-Light.ttf */,
+				2D6148DD88BD426283E0F7BB /* Poppins-LightItalic.ttf */,
+				D6B469B8B81847CDB4270768 /* Poppins-Medium.ttf */,
+				10F63EFB7FE84E2594AB29E4 /* Poppins-MediumItalic.ttf */,
+				90A4E2792AA842CA8722DE47 /* Poppins-Regular.ttf */,
+				8BF9D373400448738E6794AE /* Poppins-RegularItalic.ttf */,
+				9319EC1BD11F4EC586D37897 /* Poppins-SemiBold.ttf */,
+				FAE39F2B27634E10A7F1B05F /* Poppins-SemiBoldItalic.ttf */,
+				7713E1AC31A647EABD505C53 /* Poppins-Thin.ttf */,
+				B798BB7B0B844E31A461D1C3 /* Poppins-ThinItalic.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				13B07FAE1A68108700A75B9A /* YepTribe */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* YepTribeTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				F150B0777D1413DE36018F3C /* Pods */,
+				4BFBF0B62AF742A1872954D2 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* YepTribe.app */,
+				00E356EE1AD99517003FC87E /* YepTribeTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* YepTribe-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* YepTribe-tvOSTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F150B0777D1413DE36018F3C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9EE665EBA6540D3FCD165BCA /* Pods-YepTribe.debug.xcconfig */,
+				98EFF3EAD2F8E0F604B7362D /* Pods-YepTribe.release.xcconfig */,
+				5BE3AEFBA0E25815429EBF56 /* Pods-YepTribe-tvOS.debug.xcconfig */,
+				35B1741B3ECA6856475B0B64 /* Pods-YepTribe-tvOS.release.xcconfig */,
+				A21F658B1F1A62CAE3FBA240 /* Pods-YepTribe-tvOSTests.debug.xcconfig */,
+				F907CE2CB15F14F4DD5545A9 /* Pods-YepTribe-tvOSTests.release.xcconfig */,
+				173FD31BB5FF36F0B713BDC1 /* Pods-YepTribeTests.debug.xcconfig */,
+				AF245FE7A28FC13A4E9268EE /* Pods-YepTribeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* YepTribeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YepTribeTests" */;
+			buildPhases = (
+				FA38E73E34911ADF750CCB7C /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = YepTribeTests;
+			productName = YepTribeTests;
+			productReference = 00E356EE1AD99517003FC87E /* YepTribeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* YepTribe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YepTribe" */;
+			buildPhases = (
+				FF15F1EA16276F580406E74B /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YepTribe;
+			productName = YepTribe;
+			productReference = 13B07F961A680F5B00A75B9A /* YepTribe.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E47A1E0B4A5D006451C7 /* YepTribe-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "YepTribe-tvOS" */;
+			buildPhases = (
+				5FF29BF7D9A8D511D1AB968F /* [CP] Check Pods Manifest.lock */,
+				FD10A7F122414F3F0027D42C /* Start Packager */,
+				2D02E4771E0B4A5D006451C7 /* Sources */,
+				2D02E4781E0B4A5D006451C7 /* Frameworks */,
+				2D02E4791E0B4A5D006451C7 /* Resources */,
+				2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YepTribe-tvOS";
+			productName = "YepTribe-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* YepTribe-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D02E48F1E0B4A5D006451C7 /* YepTribe-tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "YepTribe-tvOSTests" */;
+			buildPhases = (
+				CB936E759BBD7BB1909C2521 /* [CP] Check Pods Manifest.lock */,
+				2D02E48C1E0B4A5D006451C7 /* Sources */,
+				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
+				2D02E48E1E0B4A5D006451C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
+			);
+			name = "YepTribe-tvOSTests";
+			productName = "YepTribe-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* YepTribe-tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = JCL83YYXPH;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 0;
+							};
+						};
+					};
+					2D02E47A1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					2D02E48F1E0B4A5D006451C7 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2D02E47A1E0B4A5D006451C7;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YepTribe" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* YepTribe */,
+				00E356ED1AD99517003FC87E /* YepTribeTests */,
+				2D02E47A1E0B4A5D006451C7 /* YepTribe-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* YepTribe-tvOSTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
+				173F63125EB74ADA9188015A /* Poppins-Black.ttf in Resources */,
+				95C3221F04964AF9844E0F83 /* Poppins-BlackItalic.ttf in Resources */,
+				F497D9ECA79D4F79939C3070 /* Poppins-Bold.ttf in Resources */,
+				E2098015710B4D5E9CB432DC /* Poppins-BoldItalic.ttf in Resources */,
+				85DC36FFD29A425F99ED9F00 /* Poppins-ExtraBold.ttf in Resources */,
+				C1E0CF8DE1A743C894E9138B /* Poppins-ExtraBoldItalic.ttf in Resources */,
+				D4884FFE61904D2AAD502A27 /* Poppins-ExtraLight.ttf in Resources */,
+				A3593854D0574F4FA4FC2690 /* Poppins-ExtraLightItalic.ttf in Resources */,
+				86B387E912DE44549F3FF2BB /* Poppins-Light.ttf in Resources */,
+				F90563AAFC3F46C19538DA97 /* Poppins-LightItalic.ttf in Resources */,
+				84C47FC371764F99A28486DB /* Poppins-Medium.ttf in Resources */,
+				1E3D5B15E3404EB0ADF4AEF3 /* Poppins-MediumItalic.ttf in Resources */,
+				C8464D9610D84AD696A5371F /* Poppins-Regular.ttf in Resources */,
+				32769B1B325549EEA5B30744 /* Poppins-RegularItalic.ttf in Resources */,
+				F47AD51507C340DA9F24B30E /* Poppins-SemiBold.ttf in Resources */,
+				4611E195BFE14EFB941DAFDC /* Poppins-SemiBoldItalic.ttf in Resources */,
+				525F04F2A019401CB372011B /* Poppins-Thin.ttf in Resources */,
+				BDF9050F5326417194D2846C /* Poppins-ThinItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4791E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48E1E0B4A5D006451C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		2D02E4CB1E0B4B27006451C7 /* Bundle React Native Code And Images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native Code And Images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
+		};
+		5FF29BF7D9A8D511D1AB968F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YepTribe-tvOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB936E759BBD7BB1909C2521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YepTribe-tvOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA38E73E34911ADF750CCB7C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YepTribeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F122414F3F0027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF15F1EA16276F580406E74B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YepTribe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* YepTribeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E4771E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */,
+				2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D02E48C1E0B4A5D006451C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DCD954D1E0B4F2C00145EB5 /* YepTribeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* YepTribe */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D02E47A1E0B4A5D006451C7 /* YepTribe-tvOS */;
+			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13B07FB11A68108700A75B9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13B07FB21A68108700A75B9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			path = YepTribe;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 173FD31BB5FF36F0B713BDC1 /* Pods-YepTribeTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YepTribeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YepTribe.app/YepTribe";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF245FE7A28FC13A4E9268EE /* Pods-YepTribeTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YepTribeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YepTribe.app/YepTribe";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9EE665EBA6540D3FCD165BCA /* Pods-YepTribe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YepTribe/YepTribe.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 50;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = JCL83YYXPH;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YepTribe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.webtechedgeinc.yeptribe;
+				PRODUCT_NAME = YepTribe;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.webtechedgeinc.yeptribe";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98EFF3EAD2F8E0F604B7362D /* Pods-YepTribe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = YepTribe/YepTribe.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 50;
+				DEVELOPMENT_TEAM = JCL83YYXPH;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = YepTribe/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.webtechedgeinc.yeptribe;
+				PRODUCT_NAME = YepTribe;
+				PROVISIONING_PROFILE_SPECIFIER = "match AppStore com.webtechedgeinc.yeptribe";
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		2D02E4971E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BE3AEFBA0E25815429EBF56 /* Pods-YepTribe-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "YepTribe-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.YepTribe-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Debug;
+		};
+		2D02E4981E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35B1741B3ECA6856475B0B64 /* Pods-YepTribe-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "YepTribe-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.YepTribe-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.2;
+			};
+			name = Release;
+		};
+		2D02E4991E0B4A5E006451C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A21F658B1F1A62CAE3FBA240 /* Pods-YepTribe-tvOSTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "YepTribe-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.YepTribe-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YepTribe-tvOS.app/YepTribe-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Debug;
+		};
+		2D02E49A1E0B4A5E006451C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F907CE2CB15F14F4DD5545A9 /* Pods-YepTribe-tvOSTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_NO_COMMON_BLOCKS = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = "YepTribe-tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.YepTribe-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YepTribe-tvOS.app/YepTribe-tvOS";
+				TVOS_DEPLOYMENT_TARGET = 10.1;
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "YepTribeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "YepTribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "YepTribe-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4971E0B4A5E006451C7 /* Debug */,
+				2D02E4981E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "YepTribe-tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D02E4991E0B4A5E006451C7 /* Debug */,
+				2D02E49A1E0B4A5E006451C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "YepTribe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

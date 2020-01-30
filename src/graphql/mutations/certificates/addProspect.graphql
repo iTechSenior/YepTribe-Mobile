@@ -1,0 +1,28 @@
+mutation addProspect(
+  $id: ID
+  $firstName: String!
+  $lastName: String!
+  $deliveryEndpoint: String!
+  $deliveryMethod: String
+  $certificateId: String!
+  $personalizedMessage: String!
+) {
+  addProspect(
+    id: $id
+    firstName: $firstName
+    lastName: $lastName
+    deliveryEndpoint: $deliveryEndpoint
+    deliveryMethod: $deliveryMethod
+    certificateId: $certificateId
+    personalizedMessage: $personalizedMessage
+  ) {
+    id
+    firstName
+    lastName
+    deliveryEndpoint
+    deliveryMethod
+    certificate {
+      title
+    }
+  }
+}

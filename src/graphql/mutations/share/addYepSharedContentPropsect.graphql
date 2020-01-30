@@ -1,0 +1,5 @@
+mutation addYepSharedContentProspect($args: YepProspectSharedContentInput!) {
+  addYepSharedContentProspect(args: $args) {
+    success
+  }
+}

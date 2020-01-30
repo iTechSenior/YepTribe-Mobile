@@ -1,0 +1,19 @@
+query getProspectsByAffiliate($searchText: String, $skip: Int!, $pageSize: Int!) {
+  getProspectsByAffiliate(searchText: $searchText, skip: $skip, pageSize: $pageSize) {
+    prospects {
+      id
+      firstName
+      lastName
+      redeemed
+      deliveryEndpoint
+      deliveryMethod
+      redeemed
+      phone
+      certificate {
+        title
+      }
+      createdAt
+    }
+    totalRows
+  }
+}

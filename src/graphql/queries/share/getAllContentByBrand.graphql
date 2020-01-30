@@ -1,0 +1,15 @@
+query getAllContentByBrand($skip: Int!, $pageSize: Int!, $searchText: String, $brand: String!) {
+  getAllContentByBrand(skip: $skip, pageSize: $pageSize, searchText: $searchText, brand: $brand) {
+    category
+    shareableContent {
+      id
+      subCategory
+      subject
+      text
+      sms
+      title
+      type
+      thumbnailUrl
+    }
+  }
+}

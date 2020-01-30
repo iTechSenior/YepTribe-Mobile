@@ -1,0 +1,11 @@
+mutation editMe($id: String, $firstName: String!, $lastName: String!, $email: String!, $username: String!, $password: String) {
+  editMe(id: $id, firstName: $firstName, lastName: $lastName, email: $email, username: $username, password: $password) {
+    id
+    email
+    firstName
+    lastName
+    username
+    phone
+    roles
+  }
+}

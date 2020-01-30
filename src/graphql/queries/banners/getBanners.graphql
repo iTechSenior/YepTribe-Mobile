@@ -1,0 +1,7 @@
+query getBanners {
+  getBanners {
+    url
+    height
+    width
+  }
+}
